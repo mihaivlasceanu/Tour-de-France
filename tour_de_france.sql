@@ -1,5 +1,5 @@
 /*==================================
-		IMPORTING THE DATASETS
+	IMPORTING THE DATASETS
 ====================================*/
 
 
@@ -67,7 +67,7 @@ SELECT * FROM finishers
 
 
 /*===============================
-		CLEANING THE TABLES
+	CLEANING THE TABLES
 =================================*/
 
 -- 1. TOURS table
@@ -510,7 +510,7 @@ SELECT * FROM finishers_cleaned
 
 
 /*=====================================
-		EXPLORATORY DATA ANALYSIS
+	EXPLORATORY DATA ANALYSIS
 =======================================*/
 
 
