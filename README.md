@@ -8,6 +8,7 @@
 - [🎨 Data Visualization (Tableau)](https://github.com/mihaivlasceanu/Tour-de-France/blob/main/README.md#data-visualization)
 
 ## Importing the datasets
+**Source:** [Maven Analytics](https://mavenanalytics.io/data-playground)
 ```sql
 CREATE TABLE tours (
 year INT,
@@ -2067,7 +2068,7 @@ LIMIT 10
 --\COPY finishers_cleaned TO 'C:\Users\Public\tdf_finishers_cleaned.csv' WITH CSV HEADER DELIMITER ',' ENCODING 'UTF8'
 ```
 ## Data Visualization
-**[Go to Tableau Public for the full dashboard!](https://public.tableau.com/app/profile/mihai.vl.sceanu/viz/TourDeFranceWORKINPROGRESS/Dashboard1ALT?publish=yes)**
+**[Go to Tableau Public for the full dashboard!](https://public.tableau.com/app/profile/mihai.vl.sceanu/viz/TourDeFrance_16990931619720/Dashboard1ALT)**
 
 ![First page of Tour de France Tableau Dashboard](images/tdf_dash_page_1.png)
 ![Second page of Tour de France Tableau Dashboard](images/tdf_dash_page_2.png)
