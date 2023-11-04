@@ -477,9 +477,9 @@ LIMIT 5
 | 1903 | 1903-07-12 | 4     | Toulouse       | France           | Bordeaux     | France         | 268            | Flat     | Charles Laeser        | SUI         |
 | 1903 | 1903-07-13 | 5     | Bordeaux       | France           | Nantes       | France         | 425            | Flat     | Maurice Garin         | FRA         |
 
-This new file (tdf_stages_2) we will enrich with location coordinates using Python, thus producing tdf_stages_3.
+**This new file (tdf_stages_2) we will enrich with location coordinates using Python, thus producing tdf_stages_3.**
 
-[🐍 Click here to check out the geocoding section!]
+[🐍 Click here to check out the Jupyter Notebook for this step!](https://github.com/mihaivlasceanu/Tour-de-France/blob/main/tdf_geocoding.ipynb)
 
 ```sql
 CREATE TABLE stages_cleaned_3 (
@@ -645,6 +645,7 @@ FROM tours_cleaned
 | min_pct_finishers | max_pct_finishers | avg_pct_finishers |
 |-------------------|-------------------|-------------------|
 | 14.5              | 88.1              | 60                |
+
 **4. Top 10 years with most pct_finishers:**
 ```sql
 SELECT
@@ -1262,6 +1263,7 @@ LIMIT 10
 | 1910 | 1910-07-31 | Octave Lapize       | 1887-10-24 | 22  |
 | 1911 | 1911-07-30 | Gustave Garrigou    | 1884-09-24 | 26  |
 | 1912 | 1912-07-28 | Odile Defraye       | 1888-07-14 | 24  |
+
 **24. Distribution of ages at time of winning Tour:**
 ```sql
 WITH winner_ages AS (
@@ -2056,6 +2058,7 @@ LIMIT 10
 | 1905 | Peugeot-Wolber/Griffon | 9             |               |
 | 1905 | Griffon                | 10            |               |
 | 1905 | Catteau Cycles         | 11            |               |
+
 **Exporting our final tables for use in Tableau:**
 ```sql
 --\COPY tours_cleaned TO 'C:\Users\Public\tdf_tours_cleaned.csv' WITH CSV HEADER DELIMITER ',' ENCODING 'UTF8'
