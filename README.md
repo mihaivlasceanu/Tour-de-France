@@ -3,7 +3,7 @@
 
 ## 📚  Table of Contents
 - [📄 Importing the datasets (SQL)](https://github.com/mihaivlasceanu/Tour-de-France/blob/main/README.md#importing-the-datasets)
-- [🧹 Cleaning the tables (SQL)](https://github.com/mihaivlasceanu/Tour-de-France/blob/main/README.md#cleaning-the-tables)
+- [🧹 Cleaning the tables (SQL & Python)](https://github.com/mihaivlasceanu/Tour-de-France/blob/main/README.md#cleaning-the-tables)
 - [🔍 Exploratory Data Analysis (SQL)](https://github.com/mihaivlasceanu/Tour-de-France/blob/main/README.md#exploratory-data-analysis)
 - [🎨 Data Visualization (Tableau)](https://github.com/mihaivlasceanu/Tour-de-France/blob/main/README.md#data-visualization)
 
