@@ -5,7 +5,7 @@
 - [📄 Importing the datasets (SQL)](https://github.com/mihaivlasceanu/Tour-de-France/blob/main/README.md#importing-the-datasets)
 - [🧹 Cleaning the tables (SQL)](https://github.com/mihaivlasceanu/Tour-de-France/blob/main/README.md#cleaning-the-tables)
 - [🔍 Exploratory Data Analysis (SQL)](https://github.com/mihaivlasceanu/Tour-de-France/blob/main/README.md#exploratory-data-analysis)
-- [🎨 Data Visualization (Tableau)](https://github.com/mihaivlasceanu/Tour-de-France/blob/main/README.md#data_visualization)
+- [🎨 Data Visualization (Tableau)](https://github.com/mihaivlasceanu/Tour-de-France/blob/main/README.md#data-visualization)
 
 ## Importing the datasets
 ```sql
@@ -2064,6 +2064,8 @@ LIMIT 10
 --\COPY finishers_cleaned TO 'C:\Users\Public\tdf_finishers_cleaned.csv' WITH CSV HEADER DELIMITER ',' ENCODING 'UTF8'
 ```
 ## Data Visualization
+**[Go to Tableau Public for the full dashboard!](https://public.tableau.com/app/profile/mihai.vl.sceanu/viz/TourDeFranceWORKINPROGRESS/Dashboard1ALT?publish=yes)**
+
 ![First page of Tour de France Tableau Dashboard](images/tdf_dash_page_1.png)
 ![Second page of Tour de France Tableau Dashboard](images/tdf_dash_page_2.png)
 ![Third page of Tour de France Tableau Dashboard](images/tdf_dash_page_3.png)
