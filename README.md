@@ -1,10 +1,11 @@
 ﻿# Tour de France
+![Tour de France Logo](images/TDF-Logo-Light_background-RGB.png)
 
 ## 📚  Table of Contents
-- [📄 Importing the datasets (SQL)]
-- [🧹 Cleaning the tables (SQL)]
-- [🔍 Exploratory Data Analysis (SQL)]
-- [🎨 Data Visualization (Tableau)]
+- [📄 Importing the datasets (SQL)](https://github.com/mihaivlasceanu/Tour-de-France/blob/main/README.md#importing-the-datasets)
+- [🧹 Cleaning the tables (SQL)](https://github.com/mihaivlasceanu/Tour-de-France/blob/main/README.md#cleaning-the-tables)
+- [🔍 Exploratory Data Analysis (SQL)](https://github.com/mihaivlasceanu/Tour-de-France/blob/main/README.md#exploratory-data-analysis)
+- [🎨 Data Visualization (Tableau)](https://github.com/mihaivlasceanu/Tour-de-France/blob/main/README.md#data_visualization)
 
 ## Importing the datasets
 ```sql
@@ -2062,6 +2063,10 @@ LIMIT 10
 --\COPY stages_cleaned_3 TO 'C:\Users\Public\tdf_stages_cleaned.csv' WITH CSV HEADER DELIMITER ',' ENCODING 'UTF8'
 --\COPY finishers_cleaned TO 'C:\Users\Public\tdf_finishers_cleaned.csv' WITH CSV HEADER DELIMITER ',' ENCODING 'UTF8'
 ```
+## Data Visualization
+![First page of Tour de France Tableau Dashboard](images/tdf_dash_page_1.png)
+![Second page of Tour de France Tableau Dashboard](images/tdf_dash_page_2.png)
+![Third page of Tour de France Tableau Dashboard](images/tdf_dash_page_3.png)
 
 
 > Written with [StackEdit](https://stackedit.io/).
